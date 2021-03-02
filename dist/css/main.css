@@ -1,0 +1,34 @@
+#home {
+  background-color: #262622;
+  color: red; }
+  #home .main-name h1 {
+    color: red;
+    text-align: center;
+    z-index: 2; }
+
+#main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0rem 0rem;
+  margin: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #262622; }
+  #main-header .main-logo {
+    margin: 0; }
+    #main-header .main-logo img {
+      width: 10vh;
+      height: 10vh; }
+  #main-header .nav-items {
+    position: absolute;
+    right: 0;
+    top: 1vh;
+    font-size: 2rem;
+    color: #BCAC72; }
+    #main-header .nav-items .ul, #main-header .nav-items li {
+      display: inline;
+      margin: 0 10vh 0 0; }
+    #main-header .nav-items a {
+      color: #BCAC72;
+      text-decoration: none; }

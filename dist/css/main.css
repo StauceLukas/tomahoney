@@ -1,10 +1,7 @@
-#home {
-  background-color: #262622;
-  color: red; }
-  #home .main-name h1 {
-    color: red;
-    text-align: center;
-    z-index: 2; }
+header {
+  position: fixed;
+  z-index: -1;
+  height: 10vh; }
 
 #main-header {
   position: absolute;
